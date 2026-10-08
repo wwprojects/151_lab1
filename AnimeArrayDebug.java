@@ -26,8 +26,8 @@ public class AnimeArrayDebug {
 
         String[] animeShows = new String[size];
 
-        for (int i = 1; i <= animeShows.length; i++) {
-            System.out.print("Enter anime show " + i + ": ");
+        for (int i = 0; i <= animeShows.length; i++) {
+            System.out.print("Enter anime show " + (i + 1) + ": ");
             animeShows[i] = input.nextLine();
         }
 
