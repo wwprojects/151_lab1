@@ -14,10 +14,10 @@ public class AnimeArrayDebug {
 
         System.out.println("Sample Anime Shows:");
 
+        System.out.println(sampleShows[0]);
         System.out.println(sampleShows[1]);
         System.out.println(sampleShows[2]);
         System.out.println(sampleShows[3]);
-        System.out.println(sampleShows[4]);
 
         System.out.println();
 
