@@ -24,6 +24,8 @@ public class AnimeArrayDebug {
         System.out.print("How many anime shows do you want to enter? ");
         int size = input.nextInt();
 
+        input.nextLine();
+
         String[] animeShows = new String[size];
 
         for (int i = 0; i <= animeShows.length; i++) {
@@ -43,8 +45,9 @@ public class AnimeArrayDebug {
         boolean isFound = false;
 
         for (int i = 0; i < animeShows.length; i++) {
-            if (animeShows[i] == target) {
+            if (animeShows[i].equals(target)) {
                 System.out.println("Show found at index " + i);
+                isFound = true;
                 break;
             }
         }
